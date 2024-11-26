@@ -15,6 +15,7 @@ while game_over==0:
         game_chance +=1
         if game_chance==3:
             print("Game Over")
+            print(sys_no)
             game_over=1
         elif usr_no == sys_no :
             print("You won!")
